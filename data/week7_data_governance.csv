@@ -1,0 +1,8 @@
+Area,Recommendation
+Customer Privacy,Use only customer identifiers required for analysis and protect personally identifiable information.
+Access Control,Restrict access to raw customer and transaction data based on business role.
+Data Quality,"Automate checks for duplicates, missing identifiers, invalid quantities and pricing anomalies."
+Data Definitions,"Maintain consistent definitions for revenue, demand, active customer, product category and inventory KPIs."
+Model Governance,"Record model versions, training periods, evaluation results and parameter settings."
+Human Oversight,Keep human approval in the replenishment workflow during the initial deployment stage.
+Auditability,"Maintain records of forecasts, inventory recommendations and later operational decisions."

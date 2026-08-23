@@ -1,0 +1,2 @@
+FinalModel,LeadTimeWeeks,TargetServiceLevelPct,ObservedHistoricalCoveragePct,BacktestObservations,Method
+4-Week Moving Average,2,95.0,90.35986040391327,17479,Forecast + forecast-error safety stock

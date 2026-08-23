@@ -1,0 +1,8 @@
+Limitation,CurrentProject,Impact,FutureSolution
+Dataset geography,Public international Online Retail II data,Results should not be presented as observed UAE retailer behaviour.,Validate and retrain using real UAE retailer data.
+Supplier lead time,Not available,A 2-week planning scenario is used for the inventory demonstration.,Connect real supplier lead-time records.
+Current stock-on-hand,Not available,The project calculates reorder thresholds but cannot issue a truthful 'reorder now' decision.,Connect ERP/WMS inventory-position data.
+Promotions and discounts,No verified discount field,Promotional effects cannot be modelled directly.,Integrate verified promotional-calendar data.
+Future RFM leakage,Full-period RFM labels are used for customer analysis only,They cannot be attached retrospectively to earlier forecast periods without leaking future behaviour.,Generate time-specific customer features during each forecast cycle.
+New products,Historical lag models require sufficient sales history,New products may require fallback forecasting.,Develop cold-start models using product/category similarity.
+Model drift,Model evaluated on historical holdout period,Future demand behaviour may change.,Monitor forecast error and retrain when needed.

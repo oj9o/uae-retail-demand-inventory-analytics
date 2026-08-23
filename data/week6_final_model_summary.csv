@@ -1,0 +1,2 @@
+FinalModel,MAE,RMSE,WAPE,R2,SelectionMetric,ForecastLevel,ProphetRole
+4-Week Moving Average,70.13224451070751,157.49617697279623,63.33870871394325,0.4150080487245431,Lowest WAPE,Product-week,Aggregate Category A analysis only

@@ -1,0 +1,5 @@
+Assumption,Value,Unit,Source
+Lead Time,2.0,Weeks,Planning scenario - not available in dataset
+Cycle Service Level,95.0,%,Planning scenario - not available in dataset
+Z Score,1.6448536269514715,Standard deviations,Calculated from target service level
+Current Stock On Hand,,Units,Not available in dataset

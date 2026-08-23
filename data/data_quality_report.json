@@ -1,0 +1,12 @@
+{
+  "0_raw_combined_rows": 1067371,
+  "1_cancellation_rows_removed": 19494,
+  "2_service_line_rows_removed": 4721,
+  "3_duplicate_rows_removed": 33852,
+  "4_nonpositive_quantity_removed": 3393,
+  "5_nonpositive_price_removed": 2571,
+  "6_missing_description_removed": 0,
+  "7_clean_product_sales_rows": 1003340,
+  "8_rows_with_customer_id": 776579,
+  "9_rows_without_customer_id_kept_for_sales": 226761
+}

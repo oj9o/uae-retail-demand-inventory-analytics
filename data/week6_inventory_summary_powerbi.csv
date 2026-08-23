@@ -1,0 +1,2 @@
+Category,Products,FinalModelProducts,FallbackProducts,ForecastWeek,TotalForecastUnits,AverageForecastPerProduct,TotalSafetyStockUnits,AverageSafetyStockUnits,TotalReorderPointUnits,AverageReorderPointUnits,LeadTimeWeeks,TargetServiceLevelPct,ObservedBacktestCoveragePct
+A,1056,1048,8,2011-12-12,228917.5,216.7779356060606,351542,332.8996212121212,809624,766.689393939394,2,95.0,90.35986040391327

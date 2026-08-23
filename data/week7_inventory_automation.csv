@@ -1,0 +1,8 @@
+Stage,Process,Automation,RequiredData
+1,Demand Forecast,Generate the next-period demand forecast for each priority SKU.,Historical product demand
+2,Lead-Time Demand,Multiply expected weekly demand by the retailer-specific supplier lead time.,Forecast demand + supplier lead time
+3,Safety Stock,Calculate a safety-stock buffer using forecast uncertainty and the target service level.,Forecast-error variability + service-level target
+4,Reorder Point,Calculate reorder point as expected lead-time demand plus safety stock.,Lead-time demand + safety stock
+5,Inventory Position Check,Compare current inventory position with the calculated reorder point.,Real current stock-on-hand and outstanding purchase orders
+6,Replenishment Trigger,Generate an alert or replenishment recommendation when inventory position falls to or below the reorder point.,Inventory position + reorder point
+7,Manager Approval,Initially require human review before sending purchase orders to suppliers.,Suggested replenishment + operational review

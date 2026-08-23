@@ -1,0 +1,7 @@
+Priority,Recommendation,Action,Reason,ImplementationStage
+1,Start with Category A products,Deploy forecasting first for the high-demand ABC products before expanding to the full assortment.,Category A contains the products responsible for approximately 80% of historical unit demand.,Pilot
+2,Use weekly forecast refreshes,Recalculate product-level forecasts after each completed retail week.,The current forecasting pipeline is based on weekly product demand and lagged weekly information.,Pilot
+3,Monitor forecast accuracy continuously,"Track WAPE, MAE and RMSE after every forecast cycle and compare the production model with the simple moving-average baseline.",A model should remain in production only while it continues to outperform a simple benchmark.,Operational
+4,Retrain when performance deteriorates,Trigger model review or retraining when forecast error rises materially or retail behaviour changes.,"Demand patterns can change because of seasonality, promotions, new products and customer behaviour.",Operational
+5,Add retailer-specific variables,"In a real UAE implementation, add verified promotions, holidays, local events, pricing and other operational variables when available.",The public demonstration dataset does not contain all of these verified predictors.,Expansion
+6,Move toward automated data refresh,Connect the forecasting pipeline to the retailer's POS or ERP system rather than manually uploading CSV files.,Automation reduces manual work and allows faster forecasting cycles.,Scale

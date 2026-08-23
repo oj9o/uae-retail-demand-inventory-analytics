@@ -1,0 +1,1827 @@
+{
+  "meta": {
+    "main_dataset": "Online Retail II (Dec 2009 - Dec 2011)",
+    "backup_dataset_note": "data.csv is identical to the 2010-2011 half of Online Retail II (same 541,909 rows, same date range) - it is a subset, not an independent validation set.",
+    "date_min": "2009-12-01",
+    "date_max": "2011-12-09",
+    "generated": "2026-08-05",
+    "currency": "GBP"
+  },
+  "kpis": {
+    "total_revenue": 19643861.62,
+    "total_orders": 39516,
+    "total_customers": 5852,
+    "total_products": 4895,
+    "total_units": 11188044,
+    "avg_order_value": 497.11,
+    "avg_items_per_order": 283.13,
+    "n_countries": 43
+  },
+  "monthly": [
+    {
+      "month": "2009-12",
+      "revenue": 797901.16,
+      "orders": 1666,
+      "units": 425218
+    },
+    {
+      "month": "2010-01",
+      "revenue": 612297.42,
+      "orders": 1049,
+      "units": 390412
+    },
+    {
+      "month": "2010-02",
+      "revenue": 537909.67,
+      "orders": 1189,
+      "units": 381620
+    },
+    {
+      "month": "2010-03",
+      "revenue": 761705.98,
+      "orders": 1647,
+      "units": 525042
+    },
+    {
+      "month": "2010-04",
+      "revenue": 646340.93,
+      "orders": 1435,
+      "units": 366065
+    },
+    {
+      "month": "2010-05",
+      "revenue": 643492.03,
+      "orders": 1484,
+      "units": 395438
+    },
+    {
+      "month": "2010-06",
+      "revenue": 696583.19,
+      "orders": 1612,
+      "units": 406238
+    },
+    {
+      "month": "2010-07",
+      "revenue": 632994.32,
+      "orders": 1507,
+      "units": 337556
+    },
+    {
+      "month": "2010-08",
+      "revenue": 674037.72,
+      "orders": 1402,
+      "units": 471931
+    },
+    {
+      "month": "2010-09",
+      "revenue": 869243.12,
+      "orders": 1789,
+      "units": 583366
+    },
+    {
+      "month": "2010-10",
+      "revenue": 1094435.98,
+      "orders": 2244,
+      "units": 619511
+    },
+    {
+      "month": "2010-11",
+      "revenue": 1429700.78,
+      "orders": 2719,
+      "units": 724263
+    },
+    {
+      "month": "2010-12",
+      "revenue": 775638.36,
+      "orders": 1550,
+      "units": 357529
+    },
+    {
+      "month": "2011-01",
+      "revenue": 670380.24,
+      "orders": 1081,
+      "units": 386738
+    },
+    {
+      "month": "2011-02",
+      "revenue": 507799.87,
+      "orders": 1093,
+      "units": 282627
+    },
+    {
+      "month": "2011-03",
+      "revenue": 689833.51,
+      "orders": 1440,
+      "units": 376182
+    },
+    {
+      "month": "2011-04",
+      "revenue": 515377.99,
+      "orders": 1235,
+      "units": 307650
+    },
+    {
+      "month": "2011-05",
+      "revenue": 739953.0,
+      "orders": 1668,
+      "units": 394653
+    },
+    {
+      "month": "2011-06",
+      "revenue": 737558.98,
+      "orders": 1525,
+      "units": 388124
+    },
+    {
+      "month": "2011-07",
+      "revenue": 688219.34,
+      "orders": 1452,
+      "units": 399290
+    },
+    {
+      "month": "2011-08",
+      "revenue": 724216.5,
+      "orders": 1339,
+      "units": 420695
+    },
+    {
+      "month": "2011-09",
+      "revenue": 1028320.38,
+      "orders": 1818,
+      "units": 568700
+    },
+    {
+      "month": "2011-10",
+      "revenue": 1103314.25,
+      "orders": 2005,
+      "units": 619597
+    },
+    {
+      "month": "2011-11",
+      "revenue": 1452115.98,
+      "orders": 2751,
+      "units": 746952
+    },
+    {
+      "month": "2011-12",
+      "revenue": 614490.92,
+      "orders": 816,
+      "units": 312647
+    }
+  ],
+  "by_dow": [
+    {
+      "day": "Mon",
+      "revenue": 3416593.66
+    },
+    {
+      "day": "Tue",
+      "revenue": 3880183.26
+    },
+    {
+      "day": "Wed",
+      "revenue": 3375311.19
+    },
+    {
+      "day": "Thu",
+      "revenue": 4010215.52
+    },
+    {
+      "day": "Fri",
+      "revenue": 3166580.83
+    },
+    {
+      "day": "Sat",
+      "revenue": 9803.05
+    },
+    {
+      "day": "Sun",
+      "revenue": 1785174.11
+    }
+  ],
+  "by_hour": [
+    {
+      "hour": 6,
+      "revenue": 4.25
+    },
+    {
+      "hour": 7,
+      "revenue": 75029.57
+    },
+    {
+      "hour": 8,
+      "revenue": 521950.2
+    },
+    {
+      "hour": 9,
+      "revenue": 1704555.73
+    },
+    {
+      "hour": 10,
+      "revenue": 2508729.23
+    },
+    {
+      "hour": 11,
+      "revenue": 2423334.77
+    },
+    {
+      "hour": 12,
+      "revenue": 2785147.51
+    },
+    {
+      "hour": 13,
+      "revenue": 2479914.54
+    },
+    {
+      "hour": 14,
+      "revenue": 2216435.35
+    },
+    {
+      "hour": 15,
+      "revenue": 2228673.31
+    },
+    {
+      "hour": 16,
+      "revenue": 1457666.26
+    },
+    {
+      "hour": 17,
+      "revenue": 814966.46
+    },
+    {
+      "hour": 18,
+      "revenue": 263096.94
+    },
+    {
+      "hour": 19,
+      "revenue": 125469.61
+    },
+    {
+      "hour": 20,
+      "revenue": 38887.89
+    }
+  ],
+  "top_countries_ex_uk": [
+    {
+      "country": "EIRE",
+      "revenue": 623414.16
+    },
+    {
+      "country": "Netherlands",
+      "revenue": 549773.41
+    },
+    {
+      "country": "Germany",
+      "revenue": 383289.0
+    },
+    {
+      "country": "France",
+      "revenue": 311090.29
+    },
+    {
+      "country": "Australia",
+      "revenue": 167800.01
+    },
+    {
+      "country": "Spain",
+      "revenue": 97766.75
+    },
+    {
+      "country": "Switzerland",
+      "revenue": 94024.59
+    },
+    {
+      "country": "Sweden",
+      "revenue": 86319.14
+    },
+    {
+      "country": "Denmark",
+      "revenue": 67422.69
+    },
+    {
+      "country": "Belgium",
+      "revenue": 56993.17
+    }
+  ],
+  "uk_revenue_share": 85.5,
+  "top_products_revenue": [
+    {
+      "product": "REGENCY CAKESTAND 3 TIER",
+      "revenue": 330590.32
+    },
+    {
+      "product": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "revenue": 260990.22
+    },
+    {
+      "product": "PAPER CRAFT , LITTLE BIRDIE",
+      "revenue": 168469.6
+    },
+    {
+      "product": "PARTY BUNTING",
+      "revenue": 148318.28
+    },
+    {
+      "product": "JUMBO BAG RED RETROSPOT",
+      "revenue": 148073.47
+    },
+    {
+      "product": "ASSORTED COLOUR BIRD ORNAMENT",
+      "revenue": 129324.49
+    },
+    {
+      "product": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "revenue": 117760.29
+    },
+    {
+      "product": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "revenue": 81700.92
+    },
+    {
+      "product": "CHILLI LIGHTS",
+      "revenue": 80540.88
+    },
+    {
+      "product": "ROTATING SILVER ANGELS T-LIGHT HLDR",
+      "revenue": 71300.4
+    },
+    {
+      "product": "JUMBO BAG STRAWBERRY",
+      "revenue": 69002.13
+    },
+    {
+      "product": "RABBIT NIGHT LIGHT",
+      "revenue": 66870.03
+    },
+    {
+      "product": "BLACK RECORD COVER FRAME",
+      "revenue": 65189.29
+    },
+    {
+      "product": "JUMBO STORAGE BAG SUKI",
+      "revenue": 61537.55
+    },
+    {
+      "product": "VINTAGE UNION JACK BUNTING",
+      "revenue": 60286.04
+    }
+  ],
+  "top_products_units": [
+    {
+      "product": "WORLD WAR 2 GLIDERS ASSTD DESIGNS",
+      "units": 106139
+    },
+    {
+      "product": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "units": 94658
+    },
+    {
+      "product": "PAPER CRAFT , LITTLE BIRDIE",
+      "units": 80995
+    },
+    {
+      "product": "ASSORTED COLOUR BIRD ORNAMENT",
+      "units": 80082
+    },
+    {
+      "product": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "units": 78033
+    },
+    {
+      "product": "JUMBO BAG RED RETROSPOT",
+      "units": 77699
+    },
+    {
+      "product": "BROCADE RING PURSE",
+      "units": 70369
+    },
+    {
+      "product": "PACK OF 60 PINK PAISLEY CAKE CASES",
+      "units": 56061
+    },
+    {
+      "product": "60 TEATIME FAIRY CAKE CASES",
+      "units": 54028
+    },
+    {
+      "product": "SMALL POPCORN HOLDER",
+      "units": 48561
+    },
+    {
+      "product": "PACK OF 72 RETROSPOT CAKE CASES",
+      "units": 48156
+    },
+    {
+      "product": "PACK OF 72 RETRO SPOT CAKE CASES",
+      "units": 46728
+    },
+    {
+      "product": "ASSORTED COLOURS SILK FAN",
+      "units": 44272
+    },
+    {
+      "product": "MINI PAINT SET VINTAGE",
+      "units": 42286
+    },
+    {
+      "product": "COLOUR GLASS T-LIGHT HOLDER HANGING",
+      "units": 40439
+    }
+  ],
+  "by_category": [
+    {
+      "category": "Bags & Storage",
+      "revenue": 3908893.68,
+      "units": 1907794,
+      "products": 472
+    },
+    {
+      "category": "Other Homeware",
+      "revenue": 3843933.1,
+      "units": 2212329,
+      "products": 1233
+    },
+    {
+      "category": "Home Decor",
+      "revenue": 3548413.32,
+      "units": 1745416,
+      "products": 800
+    },
+    {
+      "category": "Kitchen & Dining",
+      "revenue": 3182668.02,
+      "units": 1723196,
+      "products": 583
+    },
+    {
+      "category": "Lighting & Candles",
+      "revenue": 1850377.48,
+      "units": 1064065,
+      "products": 494
+    },
+    {
+      "category": "Christmas & Seasonal",
+      "revenue": 945451.01,
+      "units": 623260,
+      "products": 278
+    },
+    {
+      "category": "Garden & Outdoor",
+      "revenue": 827517.41,
+      "units": 375931,
+      "products": 257
+    },
+    {
+      "category": "Stationery & Paper",
+      "revenue": 768262.95,
+      "units": 1027428,
+      "products": 332
+    },
+    {
+      "category": "Toys & Children",
+      "revenue": 424916.82,
+      "units": 231965,
+      "products": 110
+    },
+    {
+      "category": "Jewellery & Accessories",
+      "revenue": 258917.15,
+      "units": 219008,
+      "products": 385
+    },
+    {
+      "category": "Party & Celebration",
+      "revenue": 84510.68,
+      "units": 57652,
+      "products": 35
+    }
+  ],
+  "abc_summary": [
+    {
+      "cls": "A",
+      "skus": 1040,
+      "sku_pct": 21.2,
+      "revenue": 15716559.02,
+      "rev_pct": 80.0,
+      "units": 7779855
+    },
+    {
+      "cls": "B",
+      "skus": 1281,
+      "sku_pct": 26.2,
+      "revenue": 2945284.43,
+      "rev_pct": 15.0,
+      "units": 2361339
+    },
+    {
+      "cls": "C",
+      "skus": 2574,
+      "sku_pct": 52.6,
+      "revenue": 982018.17,
+      "rev_pct": 5.0,
+      "units": 1046850
+    }
+  ],
+  "abc_total_skus": 4895,
+  "abc_pareto": [
+    {
+      "rank_pct": 0.02,
+      "cum_rev_pct": 1.68
+    },
+    {
+      "rank_pct": 1.68,
+      "cum_rev_pct": 26.24
+    },
+    {
+      "rank_pct": 3.33,
+      "cum_rev_pct": 38.07
+    },
+    {
+      "rank_pct": 4.98,
+      "cum_rev_pct": 46.51
+    },
+    {
+      "rank_pct": 6.64,
+      "cum_rev_pct": 52.93
+    },
+    {
+      "rank_pct": 8.29,
+      "cum_rev_pct": 58.12
+    },
+    {
+      "rank_pct": 9.95,
+      "cum_rev_pct": 62.46
+    },
+    {
+      "rank_pct": 11.6,
+      "cum_rev_pct": 66.1
+    },
+    {
+      "rank_pct": 13.26,
+      "cum_rev_pct": 69.2
+    },
+    {
+      "rank_pct": 14.91,
+      "cum_rev_pct": 71.95
+    },
+    {
+      "rank_pct": 16.57,
+      "cum_rev_pct": 74.39
+    },
+    {
+      "rank_pct": 18.22,
+      "cum_rev_pct": 76.58
+    },
+    {
+      "rank_pct": 19.88,
+      "cum_rev_pct": 78.53
+    },
+    {
+      "rank_pct": 21.53,
+      "cum_rev_pct": 80.3
+    },
+    {
+      "rank_pct": 23.19,
+      "cum_rev_pct": 81.92
+    },
+    {
+      "rank_pct": 24.84,
+      "cum_rev_pct": 83.4
+    },
+    {
+      "rank_pct": 26.5,
+      "cum_rev_pct": 84.74
+    },
+    {
+      "rank_pct": 28.15,
+      "cum_rev_pct": 85.97
+    },
+    {
+      "rank_pct": 29.81,
+      "cum_rev_pct": 87.1
+    },
+    {
+      "rank_pct": 31.46,
+      "cum_rev_pct": 88.14
+    },
+    {
+      "rank_pct": 33.12,
+      "cum_rev_pct": 89.1
+    },
+    {
+      "rank_pct": 34.77,
+      "cum_rev_pct": 89.99
+    },
+    {
+      "rank_pct": 36.42,
+      "cum_rev_pct": 90.82
+    },
+    {
+      "rank_pct": 38.08,
+      "cum_rev_pct": 91.59
+    },
+    {
+      "rank_pct": 39.73,
+      "cum_rev_pct": 92.3
+    },
+    {
+      "rank_pct": 41.39,
+      "cum_rev_pct": 92.96
+    },
+    {
+      "rank_pct": 43.04,
+      "cum_rev_pct": 93.58
+    },
+    {
+      "rank_pct": 44.7,
+      "cum_rev_pct": 94.15
+    },
+    {
+      "rank_pct": 46.35,
+      "cum_rev_pct": 94.68
+    },
+    {
+      "rank_pct": 48.01,
+      "cum_rev_pct": 95.17
+    },
+    {
+      "rank_pct": 49.66,
+      "cum_rev_pct": 95.63
+    },
+    {
+      "rank_pct": 51.32,
+      "cum_rev_pct": 96.05
+    },
+    {
+      "rank_pct": 52.97,
+      "cum_rev_pct": 96.45
+    },
+    {
+      "rank_pct": 54.63,
+      "cum_rev_pct": 96.82
+    },
+    {
+      "rank_pct": 56.28,
+      "cum_rev_pct": 97.16
+    },
+    {
+      "rank_pct": 57.94,
+      "cum_rev_pct": 97.47
+    },
+    {
+      "rank_pct": 59.59,
+      "cum_rev_pct": 97.76
+    },
+    {
+      "rank_pct": 61.25,
+      "cum_rev_pct": 98.03
+    },
+    {
+      "rank_pct": 62.9,
+      "cum_rev_pct": 98.28
+    },
+    {
+      "rank_pct": 64.56,
+      "cum_rev_pct": 98.5
+    },
+    {
+      "rank_pct": 66.21,
+      "cum_rev_pct": 98.71
+    },
+    {
+      "rank_pct": 67.87,
+      "cum_rev_pct": 98.89
+    },
+    {
+      "rank_pct": 69.52,
+      "cum_rev_pct": 99.06
+    },
+    {
+      "rank_pct": 71.17,
+      "cum_rev_pct": 99.2
+    },
+    {
+      "rank_pct": 72.83,
+      "cum_rev_pct": 99.33
+    },
+    {
+      "rank_pct": 74.48,
+      "cum_rev_pct": 99.44
+    },
+    {
+      "rank_pct": 76.14,
+      "cum_rev_pct": 99.54
+    },
+    {
+      "rank_pct": 77.79,
+      "cum_rev_pct": 99.63
+    },
+    {
+      "rank_pct": 79.45,
+      "cum_rev_pct": 99.7
+    },
+    {
+      "rank_pct": 81.1,
+      "cum_rev_pct": 99.76
+    },
+    {
+      "rank_pct": 82.76,
+      "cum_rev_pct": 99.82
+    },
+    {
+      "rank_pct": 84.41,
+      "cum_rev_pct": 99.86
+    },
+    {
+      "rank_pct": 86.07,
+      "cum_rev_pct": 99.9
+    },
+    {
+      "rank_pct": 87.72,
+      "cum_rev_pct": 99.92
+    },
+    {
+      "rank_pct": 89.38,
+      "cum_rev_pct": 99.95
+    },
+    {
+      "rank_pct": 91.03,
+      "cum_rev_pct": 99.97
+    },
+    {
+      "rank_pct": 92.69,
+      "cum_rev_pct": 99.98
+    },
+    {
+      "rank_pct": 94.34,
+      "cum_rev_pct": 99.99
+    },
+    {
+      "rank_pct": 96.0,
+      "cum_rev_pct": 99.99
+    },
+    {
+      "rank_pct": 97.65,
+      "cum_rev_pct": 100.0
+    },
+    {
+      "rank_pct": 99.31,
+      "cum_rev_pct": 100.0
+    }
+  ],
+  "abc_examples_A": [
+    {
+      "product": "REGENCY CAKESTAND 3 TIER",
+      "revenue": 330590.32
+    },
+    {
+      "product": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "revenue": 257724.71
+    },
+    {
+      "product": "JUMBO BAG RED WHITE SPOTTY",
+      "revenue": 180569.34
+    },
+    {
+      "product": "PAPER CRAFT , LITTLE BIRDIE",
+      "revenue": 168469.6
+    },
+    {
+      "product": "PARTY BUNTING",
+      "revenue": 148318.28
+    },
+    {
+      "product": "ASSORTED COLOUR BIRD ORNAMENT",
+      "revenue": 129324.49
+    },
+    {
+      "product": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "revenue": 117760.29
+    },
+    {
+      "product": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "revenue": 81700.92
+    }
+  ],
+  "rfm_segments": [
+    {
+      "segment": "Champions",
+      "customers": 1476,
+      "avg_recency": 20.0,
+      "avg_frequency": 15.6,
+      "avg_monetary": 8005.73,
+      "total_revenue": 11816450.25
+    },
+    {
+      "segment": "Loyal Customers",
+      "customers": 1207,
+      "avg_recency": 78.0,
+      "avg_frequency": 5.4,
+      "avg_monetary": 2006.19,
+      "total_revenue": 2421467.14
+    },
+    {
+      "segment": "At Risk",
+      "customers": 1173,
+      "avg_recency": 309.0,
+      "avg_frequency": 3.2,
+      "avg_monetary": 1207.39,
+      "total_revenue": 1416268.5
+    },
+    {
+      "segment": "Can't Lose Them",
+      "customers": 274,
+      "avg_recency": 502.0,
+      "avg_frequency": 4.4,
+      "avg_monetary": 1597.84,
+      "total_revenue": 437808.99
+    },
+    {
+      "segment": "New / Promising",
+      "customers": 451,
+      "avg_recency": 28.0,
+      "avg_frequency": 1.5,
+      "avg_monetary": 923.31,
+      "total_revenue": 416414.78
+    },
+    {
+      "segment": "Hibernating / Lost",
+      "customers": 889,
+      "avg_recency": 555.0,
+      "avg_frequency": 1.2,
+      "avg_monetary": 404.02,
+      "total_revenue": 359177.52
+    },
+    {
+      "segment": "Potential Loyalist",
+      "customers": 382,
+      "avg_recency": 106.0,
+      "avg_frequency": 1.4,
+      "avg_monetary": 526.17,
+      "total_revenue": 200995.54
+    }
+  ],
+  "top_customers": [
+    {
+      "customer": "18102",
+      "orders": 145,
+      "spend": 580987.04,
+      "recency_days": 1
+    },
+    {
+      "customer": "14646",
+      "orders": 145,
+      "spend": 526751.52,
+      "recency_days": 2
+    },
+    {
+      "customer": "14156",
+      "orders": 144,
+      "spend": 303069.88,
+      "recency_days": 10
+    },
+    {
+      "customer": "14911",
+      "orders": 373,
+      "spend": 272252.79,
+      "recency_days": 1
+    },
+    {
+      "customer": "17450",
+      "orders": 51,
+      "spend": 244784.25,
+      "recency_days": 8
+    },
+    {
+      "customer": "13694",
+      "orders": 143,
+      "spend": 195640.69,
+      "recency_days": 4
+    },
+    {
+      "customer": "17511",
+      "orders": 60,
+      "spend": 172132.87,
+      "recency_days": 3
+    },
+    {
+      "customer": "16446",
+      "orders": 2,
+      "spend": 168472.5,
+      "recency_days": 1
+    },
+    {
+      "customer": "16684",
+      "orders": 55,
+      "spend": 147142.77,
+      "recency_days": 4
+    },
+    {
+      "customer": "12415",
+      "orders": 24,
+      "spend": 144033.37,
+      "recency_days": 24
+    }
+  ],
+  "model_comparison": [
+    {
+      "model": "Naive (last week)",
+      "mae": 24541.0,
+      "rmse": 27817.0,
+      "mape": 16.3
+    },
+    {
+      "model": "Random Forest",
+      "mae": 24361.0,
+      "rmse": 29316.0,
+      "mape": 15.2
+    },
+    {
+      "model": "XGBoost",
+      "mae": 23540.0,
+      "rmse": 29256.0,
+      "mape": 15.2
+    },
+    {
+      "model": "LightGBM",
+      "mae": 23343.0,
+      "rmse": 28873.0,
+      "mape": 15.2
+    }
+  ],
+  "best_model": "LightGBM",
+  "forecast_actual_vs_pred": [
+    {
+      "week": "2011-09-19",
+      "actual": 133142,
+      "predicted": 75308.0
+    },
+    {
+      "week": "2011-09-26",
+      "actual": 155401,
+      "predicted": 159315.0
+    },
+    {
+      "week": "2011-10-03",
+      "actual": 130775,
+      "predicted": 155912.0
+    },
+    {
+      "week": "2011-10-10",
+      "actual": 171042,
+      "predicted": 148626.0
+    },
+    {
+      "week": "2011-10-17",
+      "actual": 122741,
+      "predicted": 148626.0
+    },
+    {
+      "week": "2011-10-24",
+      "actual": 146384,
+      "predicted": 148626.0
+    },
+    {
+      "week": "2011-10-31",
+      "actual": 145178,
+      "predicted": 148626.0
+    },
+    {
+      "week": "2011-11-07",
+      "actual": 167931,
+      "predicted": 156270.0
+    },
+    {
+      "week": "2011-11-14",
+      "actual": 198122,
+      "predicted": 156270.0
+    },
+    {
+      "week": "2011-11-21",
+      "actual": 163365,
+      "predicted": 141205.0
+    },
+    {
+      "week": "2011-11-28",
+      "actual": 158428,
+      "predicted": 141205.0
+    },
+    {
+      "week": "2011-12-05",
+      "actual": 170713,
+      "predicted": 124372.0
+    }
+  ],
+  "weekly_units_history": [
+    {
+      "week": "2009-12-14",
+      "units": 143600
+    },
+    {
+      "week": "2009-12-21",
+      "units": 99730
+    },
+    {
+      "week": "2009-12-28",
+      "units": 19028
+    },
+    {
+      "week": "2010-01-04",
+      "units": 10636
+    },
+    {
+      "week": "2010-01-11",
+      "units": 99381
+    },
+    {
+      "week": "2010-01-18",
+      "units": 72478
+    },
+    {
+      "week": "2010-01-25",
+      "units": 135049
+    },
+    {
+      "week": "2010-02-01",
+      "units": 82096
+    },
+    {
+      "week": "2010-02-08",
+      "units": 64265
+    },
+    {
+      "week": "2010-02-15",
+      "units": 138585
+    },
+    {
+      "week": "2010-02-22",
+      "units": 93115
+    },
+    {
+      "week": "2010-03-01",
+      "units": 97867
+    },
+    {
+      "week": "2010-03-08",
+      "units": 95476
+    },
+    {
+      "week": "2010-03-15",
+      "units": 75415
+    },
+    {
+      "week": "2010-03-22",
+      "units": 153576
+    },
+    {
+      "week": "2010-03-29",
+      "units": 146251
+    },
+    {
+      "week": "2010-04-05",
+      "units": 50068
+    },
+    {
+      "week": "2010-04-12",
+      "units": 96761
+    },
+    {
+      "week": "2010-04-19",
+      "units": 88606
+    },
+    {
+      "week": "2010-04-26",
+      "units": 86289
+    },
+    {
+      "week": "2010-05-03",
+      "units": 83518
+    },
+    {
+      "week": "2010-05-10",
+      "units": 108468
+    },
+    {
+      "week": "2010-05-17",
+      "units": 105691
+    },
+    {
+      "week": "2010-05-24",
+      "units": 104359
+    },
+    {
+      "week": "2010-05-31",
+      "units": 70627
+    },
+    {
+      "week": "2010-06-07",
+      "units": 89308
+    },
+    {
+      "week": "2010-06-14",
+      "units": 109429
+    },
+    {
+      "week": "2010-06-21",
+      "units": 77765
+    },
+    {
+      "week": "2010-06-28",
+      "units": 87825
+    },
+    {
+      "week": "2010-07-05",
+      "units": 88990
+    },
+    {
+      "week": "2010-07-12",
+      "units": 67946
+    },
+    {
+      "week": "2010-07-19",
+      "units": 93687
+    },
+    {
+      "week": "2010-07-26",
+      "units": 78988
+    },
+    {
+      "week": "2010-08-02",
+      "units": 71390
+    },
+    {
+      "week": "2010-08-09",
+      "units": 163113
+    },
+    {
+      "week": "2010-08-16",
+      "units": 92989
+    },
+    {
+      "week": "2010-08-23",
+      "units": 109838
+    },
+    {
+      "week": "2010-08-30",
+      "units": 70301
+    },
+    {
+      "week": "2010-09-06",
+      "units": 103616
+    },
+    {
+      "week": "2010-09-13",
+      "units": 87166
+    },
+    {
+      "week": "2010-09-20",
+      "units": 97768
+    },
+    {
+      "week": "2010-09-27",
+      "units": 239813
+    },
+    {
+      "week": "2010-10-04",
+      "units": 135205
+    },
+    {
+      "week": "2010-10-11",
+      "units": 165459
+    },
+    {
+      "week": "2010-10-18",
+      "units": 167667
+    },
+    {
+      "week": "2010-10-25",
+      "units": 122016
+    },
+    {
+      "week": "2010-11-01",
+      "units": 112429
+    },
+    {
+      "week": "2010-11-08",
+      "units": 181231
+    },
+    {
+      "week": "2010-11-15",
+      "units": 183316
+    },
+    {
+      "week": "2010-11-22",
+      "units": 152055
+    },
+    {
+      "week": "2010-11-29",
+      "units": 167109
+    },
+    {
+      "week": "2010-12-06",
+      "units": 138407
+    },
+    {
+      "week": "2010-12-13",
+      "units": 117184
+    },
+    {
+      "week": "2010-12-20",
+      "units": 104004
+    },
+    {
+      "week": "2010-12-27",
+      "units": 24380
+    },
+    {
+      "week": "2011-01-03",
+      "units": 0
+    },
+    {
+      "week": "2011-01-10",
+      "units": 89585
+    },
+    {
+      "week": "2011-01-17",
+      "units": 89719
+    },
+    {
+      "week": "2011-01-24",
+      "units": 143140
+    },
+    {
+      "week": "2011-01-31",
+      "units": 64294
+    },
+    {
+      "week": "2011-02-07",
+      "units": 65030
+    },
+    {
+      "week": "2011-02-14",
+      "units": 55876
+    },
+    {
+      "week": "2011-02-21",
+      "units": 89025
+    },
+    {
+      "week": "2011-02-28",
+      "units": 72696
+    },
+    {
+      "week": "2011-03-07",
+      "units": 73361
+    },
+    {
+      "week": "2011-03-14",
+      "units": 71888
+    },
+    {
+      "week": "2011-03-21",
+      "units": 80971
+    },
+    {
+      "week": "2011-03-28",
+      "units": 79749
+    },
+    {
+      "week": "2011-04-04",
+      "units": 108300
+    },
+    {
+      "week": "2011-04-11",
+      "units": 67403
+    },
+    {
+      "week": "2011-04-18",
+      "units": 103511
+    },
+    {
+      "week": "2011-04-25",
+      "units": 50994
+    },
+    {
+      "week": "2011-05-02",
+      "units": 51461
+    },
+    {
+      "week": "2011-05-09",
+      "units": 91101
+    },
+    {
+      "week": "2011-05-16",
+      "units": 112494
+    },
+    {
+      "week": "2011-05-23",
+      "units": 109966
+    },
+    {
+      "week": "2011-05-30",
+      "units": 65584
+    },
+    {
+      "week": "2011-06-06",
+      "units": 67706
+    },
+    {
+      "week": "2011-06-13",
+      "units": 99540
+    },
+    {
+      "week": "2011-06-20",
+      "units": 108588
+    },
+    {
+      "week": "2011-06-27",
+      "units": 68248
+    },
+    {
+      "week": "2011-07-04",
+      "units": 82147
+    },
+    {
+      "week": "2011-07-11",
+      "units": 92321
+    },
+    {
+      "week": "2011-07-18",
+      "units": 81084
+    },
+    {
+      "week": "2011-07-25",
+      "units": 110673
+    },
+    {
+      "week": "2011-08-01",
+      "units": 100470
+    },
+    {
+      "week": "2011-08-08",
+      "units": 104543
+    },
+    {
+      "week": "2011-08-15",
+      "units": 95175
+    },
+    {
+      "week": "2011-08-22",
+      "units": 105069
+    },
+    {
+      "week": "2011-08-29",
+      "units": 81608
+    },
+    {
+      "week": "2011-09-05",
+      "units": 102393
+    },
+    {
+      "week": "2011-09-12",
+      "units": 103880
+    },
+    {
+      "week": "2011-09-19",
+      "units": 133142
+    },
+    {
+      "week": "2011-09-26",
+      "units": 155401
+    },
+    {
+      "week": "2011-10-03",
+      "units": 130775
+    },
+    {
+      "week": "2011-10-10",
+      "units": 171042
+    },
+    {
+      "week": "2011-10-17",
+      "units": 122741
+    },
+    {
+      "week": "2011-10-24",
+      "units": 146384
+    },
+    {
+      "week": "2011-10-31",
+      "units": 145178
+    },
+    {
+      "week": "2011-11-07",
+      "units": 167931
+    },
+    {
+      "week": "2011-11-14",
+      "units": 198122
+    },
+    {
+      "week": "2011-11-21",
+      "units": 163365
+    },
+    {
+      "week": "2011-11-28",
+      "units": 158428
+    },
+    {
+      "week": "2011-12-05",
+      "units": 170713
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "sin",
+      "importance": 0.217
+    },
+    {
+      "feature": "roll4",
+      "importance": 0.206
+    },
+    {
+      "feature": "cos",
+      "importance": 0.195
+    },
+    {
+      "feature": "month_n",
+      "importance": 0.166
+    },
+    {
+      "feature": "lag4",
+      "importance": 0.067
+    },
+    {
+      "feature": "lag3",
+      "importance": 0.062
+    },
+    {
+      "feature": "lag2",
+      "importance": 0.047
+    },
+    {
+      "feature": "lag1",
+      "importance": 0.041
+    }
+  ],
+  "inventory": [
+    {
+      "product": "RABBIT NIGHT LIGHT",
+      "abc": "A",
+      "avg_weekly_demand": 920.8,
+      "demand_std": 1337.5,
+      "safety_stock": 3112,
+      "reorder_point": 4954,
+      "order_up_to": 6795
+    },
+    {
+      "product": "PACK OF 72 RETRO SPOT CAKE CASES",
+      "abc": "A",
+      "avg_weekly_demand": 884.1,
+      "demand_std": 472.1,
+      "safety_stock": 1099,
+      "reorder_point": 2867,
+      "order_up_to": 4635
+    },
+    {
+      "product": "JUMBO BAG RED WHITE SPOTTY",
+      "abc": "A",
+      "avg_weekly_demand": 875.4,
+      "demand_std": 398.8,
+      "safety_stock": 928,
+      "reorder_point": 2679,
+      "order_up_to": 4430
+    },
+    {
+      "product": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "abc": "A",
+      "avg_weekly_demand": 843.1,
+      "demand_std": 443.6,
+      "safety_stock": 1033,
+      "reorder_point": 2719,
+      "order_up_to": 4405
+    },
+    {
+      "product": "POPCORN HOLDER , SMALL",
+      "abc": "A",
+      "avg_weekly_demand": 792.1,
+      "demand_std": 805.8,
+      "safety_stock": 1875,
+      "reorder_point": 3459,
+      "order_up_to": 5043
+    },
+    {
+      "product": "ASSORTED COLOUR BIRD ORNAMENT",
+      "abc": "A",
+      "avg_weekly_demand": 692.6,
+      "demand_std": 419.3,
+      "safety_stock": 976,
+      "reorder_point": 2361,
+      "order_up_to": 3746
+    },
+    {
+      "product": "JUMBO BAG PINK WITH WHITE SPOTS",
+      "abc": "A",
+      "avg_weekly_demand": 383.1,
+      "demand_std": 190.4,
+      "safety_stock": 443,
+      "reorder_point": 1210,
+      "order_up_to": 1976
+    },
+    {
+      "product": "LUNCH BAG RED SPOTTY",
+      "abc": "A",
+      "avg_weekly_demand": 371.9,
+      "demand_std": 154.5,
+      "safety_stock": 360,
+      "reorder_point": 1104,
+      "order_up_to": 1847
+    },
+    {
+      "product": "VICTORIAN GLASS HANGING T-LIGHT",
+      "abc": "A",
+      "avg_weekly_demand": 366.1,
+      "demand_std": 248.3,
+      "safety_stock": 578,
+      "reorder_point": 1310,
+      "order_up_to": 2042
+    },
+    {
+      "product": "JUMBO BAG STRAWBERRY",
+      "abc": "A",
+      "avg_weekly_demand": 333.3,
+      "demand_std": 222.7,
+      "safety_stock": 518,
+      "reorder_point": 1185,
+      "order_up_to": 1852
+    },
+    {
+      "product": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "abc": "A",
+      "avg_weekly_demand": 314.7,
+      "demand_std": 524.3,
+      "safety_stock": 1220,
+      "reorder_point": 1850,
+      "order_up_to": 2479
+    },
+    {
+      "product": "JUMBO  BAG BAROQUE BLACK WHITE",
+      "abc": "A",
+      "avg_weekly_demand": 283.0,
+      "demand_std": 165.8,
+      "safety_stock": 386,
+      "reorder_point": 952,
+      "order_up_to": 1518
+    },
+    {
+      "product": "REGENCY CAKESTAND 3 TIER",
+      "abc": "A",
+      "avg_weekly_demand": 282.4,
+      "demand_std": 151.4,
+      "safety_stock": 353,
+      "reorder_point": 917,
+      "order_up_to": 1482
+    },
+    {
+      "product": "PAPER CHAIN KIT VINTAGE CHRISTMAS",
+      "abc": "A",
+      "avg_weekly_demand": 276.2,
+      "demand_std": 327.4,
+      "safety_stock": 762,
+      "reorder_point": 1314,
+      "order_up_to": 1867
+    },
+    {
+      "product": "JUMBO STORAGE BAG SUKI",
+      "abc": "A",
+      "avg_weekly_demand": 270.2,
+      "demand_std": 119.6,
+      "safety_stock": 279,
+      "reorder_point": 819,
+      "order_up_to": 1359
+    },
+    {
+      "product": "JUMBO SHOPPER VINTAGE RED PAISLEY",
+      "abc": "A",
+      "avg_weekly_demand": 269.1,
+      "demand_std": 133.6,
+      "safety_stock": 311,
+      "reorder_point": 850,
+      "order_up_to": 1388
+    },
+    {
+      "product": "PARTY BUNTING",
+      "abc": "A",
+      "avg_weekly_demand": 257.2,
+      "demand_std": 218.4,
+      "safety_stock": 509,
+      "reorder_point": 1023,
+      "order_up_to": 1537
+    },
+    {
+      "product": "JUMBO BAG PINK VINTAGE PAISLEY",
+      "abc": "A",
+      "avg_weekly_demand": 231.5,
+      "demand_std": 170.0,
+      "safety_stock": 396,
+      "reorder_point": 859,
+      "order_up_to": 1322
+    },
+    {
+      "product": "PLEASE ONE PERSON  METAL SIGN",
+      "abc": "A",
+      "avg_weekly_demand": 227.8,
+      "demand_std": 211.7,
+      "safety_stock": 493,
+      "reorder_point": 949,
+      "order_up_to": 1404
+    },
+    {
+      "product": "HEART OF WICKER LARGE",
+      "abc": "A",
+      "avg_weekly_demand": 195.4,
+      "demand_std": 194.4,
+      "safety_stock": 453,
+      "reorder_point": 844,
+      "order_up_to": 1234
+    },
+    {
+      "product": "ROTATING SILVER ANGELS T-LIGHT HLDR",
+      "abc": "A",
+      "avg_weekly_demand": 175.8,
+      "demand_std": 317.5,
+      "safety_stock": 739,
+      "reorder_point": 1091,
+      "order_up_to": 1442
+    },
+    {
+      "product": "SET/5 RED SPOTTY LID GLASS BOWLS",
+      "abc": "A",
+      "avg_weekly_demand": 166.8,
+      "demand_std": 107.8,
+      "safety_stock": 251,
+      "reorder_point": 585,
+      "order_up_to": 918
+    },
+    {
+      "product": "BLACK RECORD COVER FRAME",
+      "abc": "A",
+      "avg_weekly_demand": 155.9,
+      "demand_std": 165.5,
+      "safety_stock": 385,
+      "reorder_point": 697,
+      "order_up_to": 1009
+    },
+    {
+      "product": "RED HANGING HEART T-LIGHT HOLDER",
+      "abc": "A",
+      "avg_weekly_demand": 154.5,
+      "demand_std": 132.7,
+      "safety_stock": 309,
+      "reorder_point": 618,
+      "order_up_to": 927
+    },
+    {
+      "product": "PAPER BUNTING RETRO SPOTS",
+      "abc": "A",
+      "avg_weekly_demand": 147.9,
+      "demand_std": 97.0,
+      "safety_stock": 226,
+      "reorder_point": 522,
+      "order_up_to": 818
+    },
+    {
+      "product": "CHILLI LIGHTS",
+      "abc": "A",
+      "avg_weekly_demand": 137.6,
+      "demand_std": 141.6,
+      "safety_stock": 330,
+      "reorder_point": 605,
+      "order_up_to": 880
+    },
+    {
+      "product": "CREAM HEART CARD HOLDER",
+      "abc": "A",
+      "avg_weekly_demand": 127.0,
+      "demand_std": 147.3,
+      "safety_stock": 343,
+      "reorder_point": 597,
+      "order_up_to": 851
+    },
+    {
+      "product": "HOT WATER BOTTLE TEA AND SYMPATHY",
+      "abc": "A",
+      "avg_weekly_demand": 106.7,
+      "demand_std": 144.4,
+      "safety_stock": 336,
+      "reorder_point": 550,
+      "order_up_to": 763
+    },
+    {
+      "product": "CHOCOLATE HOT WATER BOTTLE",
+      "abc": "A",
+      "avg_weekly_demand": 102.6,
+      "demand_std": 126.3,
+      "safety_stock": 294,
+      "reorder_point": 500,
+      "order_up_to": 705
+    },
+    {
+      "product": "WOOD BLACK BOARD ANT WHITE FINISH",
+      "abc": "A",
+      "avg_weekly_demand": 98.4,
+      "demand_std": 97.4,
+      "safety_stock": 227,
+      "reorder_point": 424,
+      "order_up_to": 621
+    },
+    {
+      "product": "RETRO SPOT TEA SET CERAMIC 11 PC",
+      "abc": "A",
+      "avg_weekly_demand": 94.7,
+      "demand_std": 66.2,
+      "safety_stock": 155,
+      "reorder_point": 344,
+      "order_up_to": 533
+    },
+    {
+      "product": "EDWARDIAN PARASOL NATURAL",
+      "abc": "A",
+      "avg_weekly_demand": 93.7,
+      "demand_std": 79.8,
+      "safety_stock": 186,
+      "reorder_point": 374,
+      "order_up_to": 561
+    },
+    {
+      "product": "DOOR MAT UNION FLAG",
+      "abc": "A",
+      "avg_weekly_demand": 90.3,
+      "demand_std": 73.8,
+      "safety_stock": 172,
+      "reorder_point": 353,
+      "order_up_to": 533
+    },
+    {
+      "product": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "abc": "A",
+      "avg_weekly_demand": 87.4,
+      "demand_std": 101.8,
+      "safety_stock": 237,
+      "reorder_point": 412,
+      "order_up_to": 587
+    },
+    {
+      "product": "RED SPOTTY COIR DOORMAT",
+      "abc": "A",
+      "avg_weekly_demand": 85.5,
+      "demand_std": 65.7,
+      "safety_stock": 153,
+      "reorder_point": 324,
+      "order_up_to": 495
+    },
+    {
+      "product": "SCOTTIE DOG HOT WATER BOTTLE",
+      "abc": "A",
+      "avg_weekly_demand": 83.6,
+      "demand_std": 109.3,
+      "safety_stock": 255,
+      "reorder_point": 422,
+      "order_up_to": 589
+    },
+    {
+      "product": "VINTAGE UNION JACK BUNTING",
+      "abc": "A",
+      "avg_weekly_demand": 59.4,
+      "demand_std": 51.6,
+      "safety_stock": 121,
+      "reorder_point": 239,
+      "order_up_to": 358
+    },
+    {
+      "product": "RETRO SPOT CAKE STAND",
+      "abc": "A",
+      "avg_weekly_demand": 54.9,
+      "demand_std": 44.4,
+      "safety_stock": 104,
+      "reorder_point": 214,
+      "order_up_to": 323
+    },
+    {
+      "product": "PICNIC BASKET WICKER SMALL",
+      "abc": "A",
+      "avg_weekly_demand": 50.3,
+      "demand_std": 38.3,
+      "safety_stock": 90,
+      "reorder_point": 190,
+      "order_up_to": 291
+    }
+  ],
+  "inventory_params": {
+    "lead_time_weeks": 2,
+    "service_level": "95%",
+    "z": 1.645,
+    "cover_weeks": 4,
+    "note": "Weekly demand winsorized at 95th percentile per product so single bulk orders do not distort safety stock."
+  }
+}

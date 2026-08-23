@@ -1,0 +1,6 @@
+FULL PAGE PDF EXPORT
+
+Inside the dashboard, use the orange “Export current page as PDF” button.
+Your browser print dialog will open.
+Choose Save as PDF, Landscape, and enable Background graphics.
+This exports the current dashboard page as one PDF document.
